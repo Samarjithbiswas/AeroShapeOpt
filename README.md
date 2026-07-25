@@ -71,7 +71,7 @@ B_{i,n} = C(n,i) · ψ^i · (1-ψ)^{n-i}  [Bernstein basis]
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/AeroShapeOpt.git
+git clone https://github.com/Samarjithbiswas/AeroShapeOpt.git
 cd AeroShapeOpt
 pip install -e .
 ```
