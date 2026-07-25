@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install numpy scipy pytest
+      - run: pip install numpy scipy pytest gymnasium
       - run: python -m pytest test_all.py -q
         env:
           PYTHONPATH: .
